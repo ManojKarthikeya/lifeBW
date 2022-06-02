@@ -1,0 +1,24 @@
+.Header{
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    z-index: 10;
+}
+
+.company{
+    padding-left: 20px;
+    font-size: 4vh;
+    color: #398AB9;
+}
+
+.tabs{
+    padding-right: 40px ;
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,18 @@
+.InfoTile{
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #E5E5E5;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.InfotileHeadding{
+    font-size: 35px;
+    color: #23374D;
+}
+
+.InfoTileContent{
+    padding: 10px;
+    font-size: 25px;
+    color: #23374D;
+}
