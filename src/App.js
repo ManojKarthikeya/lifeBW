@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router";
 import Header from "./Components/Header/Header";
 import BRPage from "./Components/BRPage/BRpage";
 import Cepage from "./Components/Contribute/Cepage";
+import Wcr from "./Components/WCR/Wcr";
 
 function App() {
 	return (
@@ -14,11 +15,8 @@ function App() {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/blue-revolution" element={<BRPage />} />
 				<Route path="/contribute" element={<Cepage />} />
+				<Route path='/AWCR' element={<Wcr/>}/>
 			</Routes>
-			<p>
-				Delevoped by Sai Vishal, Sai Supreeth, Abdul Rahil, Rushi
-				Bhargav - IT Second year
-			</p>
 		</div>
 	);
 }

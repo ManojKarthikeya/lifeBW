@@ -17,6 +17,9 @@ const Header = () => {
 				<Link to="contribute" className="tab">
 					CONTRIBUTE
 				</Link>
+				<Link to="AWCR" className="tab">
+				AWCR
+				</Link>
 			</div>
 		</div>
 	);

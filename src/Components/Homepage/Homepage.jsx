@@ -1,8 +1,8 @@
 import React from "react";
 import "./Homepage.css";
 import Sharky from "./../../assets/sharky.jpg";
-import Trash from './../../assets/pastic.jpg';
-import Sol from './../../assets/sol.jpg'
+import Trash from "./../../assets/pastic.jpg";
+import Sol from "./../../assets/sol.jpg";
 
 const Homepage = () => {
 	return (
@@ -62,7 +62,7 @@ const Homepage = () => {
 				<img src={Sharky} alt="broken" className="timage" />
 			</div>
 			<div className="pc">
-			<img src={Trash} alt="broken" className="timage" />
+				<img src={Trash} alt="broken" className="timage" />
 				<div className="InfoTile">
 					<div className="InfotileHeadding"> THE GRAVITY</div>
 					<div className="InfoTileContent">
@@ -118,6 +118,10 @@ const Homepage = () => {
 				</div>
 				<img src={Sol} alt="broken" className="timage" />
 			</div>
+			<p>
+				Delevoped by Sai Vishal, Sai Supreeth, Sai Ganesh, Rushi Bhargav
+				- IT Second year
+			</p>
 		</div>
 	);
 };

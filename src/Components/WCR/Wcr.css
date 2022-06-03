@@ -1,0 +1,24 @@
+.wcr{
+    margin-left: 70px ;
+    margin-right: 70px ;
+    text-align: left;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.wrctext{
+    font-size: 20px;
+}
+
+.wimg{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
